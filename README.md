@@ -1,9 +1,12 @@
 # Multi-search for Dutch language
 Usage:
-1. Open src/index.html page
+1. Navigate to src/index.html page
 2. Type in a word you want to search
 3. Hit enter
 4. Multiple tabs will be open in your browser to show your word in different searches
+
+## Demo
+[View Demo on Github Pages](http://anton-107.github.io/dutch-multi-search/src/index.html)
 
 ## Search results supported
 1. Google Images
