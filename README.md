@@ -1,5 +1,6 @@
 # Multi-search for Dutch language
 Usage:
+
 1. Navigate to src/index.html page
 2. Type in a word you want to search
 3. Hit enter
