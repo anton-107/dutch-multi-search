@@ -24,7 +24,9 @@ document.getElementsByClassName("search-form")[0].addEventListener("submit", fun
 
 function closeActiveWindows() {
   activeWindows.forEach(function (w) {
-    w.close();
+    if (w && w.close) {
+      w.close();
+    }
   });
   activeWindows = [];
 }
