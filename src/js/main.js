@@ -17,6 +17,7 @@ document.getElementsByClassName("search-form")[0].addEventListener("submit", fun
     }
 
     activeWindows.push(window.open("http://www.vandale.nl/opzoeken?pattern=" + q + "&lang=nn"));
+    activeWindows.push(window.open("http://www.vandale.nl/opzoeken?pattern=" + q + "&lang=ne"));
     // activeWindows.push(window.open("http://www.interglot.com/dictionary/nl/en/search?q=" + q));
     // activeWindows.push(window.open("http://en.bab.la/dictionary/dutch-english/" + q));
   }
